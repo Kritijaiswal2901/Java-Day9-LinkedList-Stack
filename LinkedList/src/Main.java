@@ -72,5 +72,23 @@ public class Main {
               System.out.print(stack.pop() + " ");
           }
           System.out.println();
-      }
+
+
+     //Queue
+          // Use Case -3
+        Queue<Integer> queue = new Queue<>();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
+
+        System.out.print("UC 3 - ");
+        queue.display();
+
+        // Use Case 4
+        System.out.println("UC 4 - Dequeueing from the Queue:");
+        while (!queue.isEmpty()) {
+            System.out.print(queue.dequeue() + " ");
+        }
     }
+      }
+    
